@@ -74,8 +74,6 @@ python kmmlu_pro_knowledge_making.py --gpu 0 --output ../results/kmmlu_pro_knowl
 - `--limit` : 생성할 샘플 수 제한  
 - `--split` : 데이터셋 스플릿 (train / validation / test / all 등)
 
-자세한 옵션은 `python <스크립트> --help` 로 확인하세요.
-
 ---
 
 ## 의존성
