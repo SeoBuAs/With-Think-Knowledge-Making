@@ -48,8 +48,7 @@ src/
 ├── kmmlu_redux_knowledge_making.py
 ├── kobest_knowledge_making.py
 ├── mmlu_knowledge_making.py
-├── mmlu_redux_knowledge_making.py
-└── (postprocess_output 모듈은 PYTHONPATH 또는 동일 디렉터리에 필요)
+└── mmlu_redux_knowledge_making.py
 ```
 
 ---
