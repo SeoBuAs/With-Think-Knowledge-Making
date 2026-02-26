@@ -64,8 +64,6 @@ python gsm8k_knowledge_making.py --gpu 0
 # KMMLU-Pro (일부만 생성 시 --limit)
 python kmmlu_pro_knowledge_making.py --gpu 0 --output ../results/kmmlu_pro_knowledge.jsonl --limit 100
 
-# GPQA (gated 가능성 있음, --split 등 옵션은 각 스크립트 --help 참고)
-python gpqa_knowledge_making.py --gpu 0
 ```
 
 공통 옵션 예시 (스크립트마다 다름):
