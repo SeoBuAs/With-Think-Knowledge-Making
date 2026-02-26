@@ -1,6 +1,6 @@
 # With-Think Knowledge Making
 
-벤치마크별로 **문제 + 정답**을 입력해, 강한 모델(기본: EXAONE-4.0-32B)이 **[Think]** 4단계 추론과 **[Response]** 요약 정답을 생성하도록 하는 스크립트 모음입니다. 생성된 JSONL은 학습/캘리브레이션/Distillation용 “knowledge” 데이터로 사용할 수 있습니다.
+벤치마크별로 **문제 + 정답**을 입력해, 강한 모델(기본: EXAONE-4.0-32B)이 **[Think]** 4단계 추론과 **[Response]** 요약 정답을 생성하도록 하는 스크립트 모음입니다. 생성된 JSONL은 학습/캘리브레이션/Distillation용 “knowledge” 데이터로 사용할 수 있습니다. 모든 코드는 [LG Aimers 8기 산출물]에 해당합니다.
 
 ---
 
