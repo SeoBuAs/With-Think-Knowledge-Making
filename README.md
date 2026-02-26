@@ -81,7 +81,7 @@ python kmmlu_pro_knowledge_making.py --gpu 0 --output ../results/kmmlu_pro_knowl
 - Python 3
 - `datasets`, `transformers`
 - vLLM (스크립트 내 생성용으로 사용 시)
-- `postprocess_output` 모듈 (같은 레포 또는 패키지에 `strip_think_tags` 제공)
+- `postprocess_output` 모듈은 직접 모델 학습에 사용되는 Special 토큰을 고려하여 후처리 해야합니다.
 
 ---
 
