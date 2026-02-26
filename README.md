@@ -37,7 +37,7 @@
 ## 디렉터리 구조
 
 ```
-with_think_src/
+src/
 ├── README.md
 ├── gsm8k_knowledge_making.py
 ├── gpqa_knowledge_making.py
@@ -59,7 +59,7 @@ with_think_src/
 **실행 위치**: 스크립트가 `postprocess_output`를 import하므로, 해당 모듈이 있는 디렉터리에서 실행하거나 `PYTHONPATH`에 포함해야 합니다.
 
 ```bash
-cd /path/to/C_data_creation/with_think_src   # 또는 postprocess_output이 보이는 경로
+cd /path/to/C_data_creation/src   # 또는 postprocess_output이 보이는 경로
 
 # GSM8K (기본: train+validation, 출력은 ../results/gsm8k_knowledge.jsonl)
 python gsm8k_knowledge_making.py --gpu 0
